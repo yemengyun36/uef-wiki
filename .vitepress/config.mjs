@@ -116,7 +116,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zaona/united-earth-files/discussions' }
+      { icon: 'github', link: 'https://github.com/zaona/uef-wiki/' }
     ]
   }
 })
