@@ -1,85 +1,18 @@
 # 关于本分站
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+本网站旨在让流浪地球爱好者有一个更好的二创体验。
 
-## Syntax Highlighting
+# 交流
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+各位流浪地球爱好者们可以通过在 Github 仓库的 Issues 页面进行沟通和交流。
 
-**Input**
-
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
+::: warning <Badge type="tip" text="^1.9.0" />
+此条目中立性有争议。内容、语调可能带有明显的个人观点或地方色彩。
 :::
 
-::: tip
-This is a tip.
-:::
+### Title <Badge type="tip" text="^1.9.0" />
 
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
+::: details 设定
+### Title <Badge type="tip" text="^1.9.0" />
 This is a details block.
 :::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
